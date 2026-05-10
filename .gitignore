@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+screen.png
+screen.png.tmp.png
+stonks_debug.png
+stonks_signal.txt
