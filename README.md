@@ -2,12 +2,21 @@
 
 This is a lightweight local helper for the Roblox game `Stonks`.
 
+It is built for players who want simple live chart signals without setting up a heavy trading stack.
+
 It does two things:
 
 1. Captures your primary screen into `screen.png` on a fast loop.
 2. Reads the stock chart from that screenshot and prints a simple `BUY`, `SELL`, `HOLD`, or `WAIT` signal.
 
 The helper is tuned around the Roblox chart layout we used while testing. It is meant as a bankroll-preservation aid, not a guaranteed profit bot.
+
+## Why Use It
+
+- Fast local screen capture loop for the game chart
+- Simple live `BUY`, `SELL`, `HOLD`, and `WAIT` signals
+- Lightweight setup with PowerShell and Python
+- Useful for cautious bankroll growth instead of random entries
 
 ## Files
 
@@ -73,6 +82,12 @@ Signal meanings:
 - `SELL`: momentum is fading from a stronger area
 - `HOLD`: the move is mostly flat
 - `WAIT`: mixed setup or a risky chase
+
+## Support
+
+If this project helped you, please star the repo on GitHub.
+
+It helps more people find it and lets me know I should keep improving it.
 
 ## Notes
 
